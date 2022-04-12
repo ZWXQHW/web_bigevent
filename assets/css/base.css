@@ -22,20 +22,6 @@ img {
     vertical-align: middle
 }
 
-button {
-    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
-    cursor: pointer
-}
-
-a {
-    color: #666;
-    text-decoration: none
-}
-
-a:hover {
-    color: #c81623
-}
-
 button,
 input {
     /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
