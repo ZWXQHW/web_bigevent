@@ -12,7 +12,7 @@ $(function(){
             // 2.重新跳转到登录页面
             location.href = '/login.html'
             // 关闭弹出窗
-                layui.layer.close(index)
+            layui.layer.close(index)
             }
           });        
     })
@@ -37,8 +37,7 @@ function getUserInfo(){
 // 参数user就是用户的信息res.data
 function renderAvatar(user){
     // 1.获取用户的用户名
-    var name = user.username || user.nickname
-    // 2.欢迎模块
+    var name = user.nickname || user.username
     $('.welcome').html(name)
     // 3.渲染头像,先判断有没有头像
     var user_pic = user.user_pic
